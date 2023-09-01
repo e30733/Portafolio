@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactar</title>
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+    <div id="contacto">
+        <h2> - - - Contactar - - -</h2>
+        <form action="#" method="get">
+            <label for="para">Para:</label><br>
+            <input type="text" name="para" id="para"><br>
+            <label for="tema">Temática:</label><br>
+            <select id="tema" name="tema">
+                    <option value="" hidden selected disabled>-- Elige un tema --</option>
+                    <option value="1">Consulta</option>
+                    <option value="2">Propuesta</option>
+                    <option value="3">Reporte</option>                    
+                    <option value="4">Otro</option>
+            </select><br>
+            <label for="asunto">Asunto:</label>
+            <br><input type="text" name="asunto" id="asunto">
+            <br><label for="cuerpo">Cuerpo:</label><br>
+            <textarea id="cuerpo" name="cuerpo"></textarea>
+            <br><input type="submit" value="Enviar">
+        </form>
+        <br>
+    </div>
+</body>
+</html>

@@ -1,0 +1,290 @@
+body {
+    background-image: url(textura-verde.jpg);
+    background-repeat: no-repeat;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para la cabecera */
+.cabecera {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cabecera h1 {
+    font-size: 36px;
+    color: #146479;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.cabecera h2 {
+    font-size: 24px;
+    color: #0c5153;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+.cabecera p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Estilos para el párrafo */
+main p {
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.boton-ovalado {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 1px 2px gray;
+    background-color: rgb(22, 167, 159);
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px gray;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.boton-ovalado:hover {
+    background-color: #0c5153;
+}
+
+/* Sección sobre mí */
+#sobre_mi .container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+#sobre_mi .image-container {
+    flex: 0 0 auto;
+    margin-right: 20px; 
+}
+#sobre_mi img {
+    max-width: 100px;
+    display: block;
+}
+#sobre_mi .text-container {
+    flex: 1;
+}
+#sobre_mi p {
+    margin: 0;
+}
+
+/* CONTACTO */
+#contacto {
+    text-align: center;
+}
+.formulario-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+/* Estilos para los campos de entrada */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Estilo para el botón de enviar */
+#contacto form input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* Cambiar el cursor al pasar el mouse por el botón */
+#contacto form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Estilos para los campos de entrada y área de texto cuando están enfocados */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Modificado para alinear los títulos a la izquierda */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para el encabezado "Contacto" */
+#contacto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #20767c;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+/* Estilos para los campos de entrada "Para" y "Asunto" */
+#contacto form input[type="text"] {
+    width: 97%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Estilo para el área de texto "Cuerpo" */
+#contacto form textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para la sección "Habilidades y conocimientos" */
+#habilidades {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+#habilidades h2 {
+    font-size: 28px;
+    color: #146479;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+#habilidades li {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+#habilidades strong {
+    color: #0c5153;
+    font-weight: bold;
+}
+.habilidades-imagen{
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;    
+}
+
+/* Estilos para la sección "Educación" */
+.seccion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.seccion h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #146479; /* Cambiar color del título */
+}
+.seccion ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+.seccion li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; /* Cambiar color del texto */
+}
+
+.educacion-imagen{
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;    
+}
+
+
+/* Estilos para la sección "Sobre mí" */
+#sobre_mi .container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+#sobre_mi .image-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+#sobre_mi img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10%;
+}
+#sobre_mi .text-container {
+    flex: 1;
+}
+#sobre_mi p {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Estilos para la sección en general */
+.seccion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilos para el encabezado h2 */
+.encabezado-decorado {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    position: relative;
+}
+.encabezado-decorado::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #007bff;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
